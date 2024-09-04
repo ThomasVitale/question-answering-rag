@@ -1,0 +1,15 @@
+---
+apiVersion: app.kadras.io/v1alpha1
+kind: Workload
+metadata:
+  name: question-answering-rag
+  labels:
+    app: question-answering-rag
+spec:
+  image: ghcr.io/thomasvitale/question-answering-rag
+  application:
+    framework: spring-boot
+    language: java
+  serviceClaims:
+    - name: open-ai
+    - name: postgresql

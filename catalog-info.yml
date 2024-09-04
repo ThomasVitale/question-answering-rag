@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: question-answering-rag
+  description: LLM-powered application with RAG capabilities.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ThomasVitale/question-answering-rag
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/kadras
