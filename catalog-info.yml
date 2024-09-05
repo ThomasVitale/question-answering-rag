@@ -5,6 +5,7 @@ metadata:
   name: question-answering-rag
   description: LLM-powered application with RAG capabilities.
   annotations:
+    backstage.io/kubernetes-id: question-answering-rag
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: ThomasVitale/question-answering-rag
 spec:
